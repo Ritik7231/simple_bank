@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: Ubuntu-latest 
+    runs-on: ubuntu-latest 
     steps: 
     - name: Set up Go 1.x
       uses: action/setup-go@v2
